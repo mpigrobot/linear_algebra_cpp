@@ -1,0 +1,11 @@
+#project name
+PROJECT(B)
+INCLUDE_DIRECTORIES(../)
+
+SET(ALL_CODE_LIST b.cpp)
+MESSAGE(${ALL_CODE_LIST})
+
+#add executable file
+ADD_EXECUTABLE(B ${ALL_CODE_LIST})
+
+

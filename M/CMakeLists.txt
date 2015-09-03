@@ -1,0 +1,15 @@
+#project name
+PROJECT(M)
+INCLUDE_DIRECTORIES(../)
+
+SET(ALL_CODE_LIST m.cpp)
+MESSAGE(${ALL_CODE_LIST})
+
+#AUX_SOURCE_DIRECTORY(${PROJECT_SOURCE_DIR}/a_Code EXAM_CPP_LIST)
+#list(APPEND CPP_LIST ${CPP_LIST} ${EXAM_CPP_LIST})
+#message(STATUS "cpplista_Code =  ${CPP_LIST}")
+
+#add executable file
+ADD_EXECUTABLE(M ${ALL_CODE_LIST})
+
+
