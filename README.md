@@ -1,7 +1,6 @@
 ## About
 
 The examples show how to tackle linear algebra in C++, which based on Linux and Visual Studio 2015.
-```
 
 ## A
 
